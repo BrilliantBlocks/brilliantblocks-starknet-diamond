@@ -1,0 +1,12 @@
+[project]
+protostar-version = "0.7.0"
+lib-path = "lib"
+
+[contracts]
+Diamond = ["src/diamond/Diamond.cairo"]
+DiamondCut = ["src/facets/diamond/DiamondCut.cairo"]
+ERC1155 = ["src/facets/token/erc1155/ERC1155.cairo"]
+ERC20 = ["src/facets/token/erc20/ERC20.cairo"]
+ERC5114 = ["src/facets/token/erc5114/ERC5114.cairo"]
+ERC721 = ["src/facets/token/erc721/ERC721.cairo"]
+UniversalMetadata = ["src/facets/metadata/Metadata.cairo"]
